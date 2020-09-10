@@ -6,8 +6,7 @@
 ---
 1. html_img.py의 66번줄에서 config = img.config(wkhtmltoimage="E:/Test03/html-to-image/wkhtmltopdf/bin/wkhtmltoimage.exe")에서 wkhtmltoimage 값의 경로를 해당 경로에 맞게 수정
 2. import 하기 전 import sys를 하고, sys.path.insert(0, 'html-to-image.py 경로')
-
-
+3. import html_img 하여 
 
 
 사용 예시
